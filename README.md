@@ -15,10 +15,14 @@ Selenium for webdriver control.
  
  The chrome profile used in this script is default chrome profile and the code will fail if chrome is already opened.
  For proper functioning keep chrome closed.
- The main reason I used default chrome profile is that many like me are used to keep logged in sessions of whatsapp in whatsapp web, so to skip scanning qr code again and again did this. 
+ The main reason I used default chrome profile is that many like me are used to keep logged in sessions of whatsapp in whatsapp web,
+ so to skip scanning qr code again and again did this. 
  If you do not want to open the default chrome profile and rather have separate instance, remove chrome options from the code.
  
  Please note that while typing the target name make sure it appears on first place in search, it's better to enter phone number for 100% success.
  I'll try to provide comments wherever necessary in code.
  
- Change time.sleep() value according to your internet speed as if the page do not loads in that time the code will throw error of element not found.
+ Change time.sleep() value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
+ Will try to find other way to solve this.
+ 
+ And do not start spamming everyone unless you seriously want a tight hit 😅.
