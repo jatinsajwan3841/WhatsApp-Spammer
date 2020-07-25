@@ -5,7 +5,7 @@ Spam someone's WhatsApp using python script
 Selenium for webdriver control.
  
  Install by either using 
-                       > '''pip install selenium'''
+                       >pip install selenium
                         or visit <a href="https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium" target="_blank">here</a> for other way around.
                         
  The browser interface driver is required, here in this I have tried and tested using ChromeDriver 85.0.4183.38.
@@ -22,7 +22,9 @@ Selenium for webdriver control.
  Please note that while typing the target name make sure it appears on first place in search, it's better to enter phone number for 100% success.
  I'll try to provide comments wherever necessary in code.
  
- Change >'''time.sleep()''' value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
+ Change 
+ >time.sleep() 
+ value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
  Will try to find other way to solve this.
  
  And do not start spamming everyone unless you seriously want a tight hit 😅.
