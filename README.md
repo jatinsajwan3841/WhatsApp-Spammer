@@ -4,9 +4,10 @@ Spam someone's WhatsApp using python script
 #Required Module:
 Selenium for webdriver control.
  
- Install by either using 
-                       >pip install selenium
-                        or visit <a href="https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium" target="_blank">here</a> for other way around.
+ Install by either using
+ >pip install selenium
+ 
+ or visit <a href="https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium" target="_blank">here</a> for other way around.
                         
  The browser interface driver is required, here in this I have tried and tested using ChromeDriver 85.0.4183.38.
  For downloading according to your preference visit <a href="https://selenium-python.readthedocs.io/installation.html#drivers" target="_blank">here</a>
@@ -24,6 +25,7 @@ Selenium for webdriver control.
  
  Change 
  >time.sleep() 
+ 
  value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
  Will try to find other way to solve this.
  
