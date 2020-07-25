@@ -6,9 +6,9 @@ Selenium for webdriver control.
  
  Install by either using
  
- ''' python
+```python
  pip install selenium
- '''
+ ```
  
  or visit <a href="https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium" target="_blank">here</a> for other way around.
                         
@@ -28,9 +28,9 @@ Selenium for webdriver control.
  
  Change 
  
- '''python
+```python
  time.sleep()
- '''
+```
  
  value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
  Will try to find other way to solve this.
