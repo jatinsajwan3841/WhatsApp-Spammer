@@ -5,7 +5,10 @@ Spam someone's WhatsApp using python script
 Selenium for webdriver control.
  
  Install by either using
- >pip install selenium
+ 
+ ''' python
+ pip install selenium
+ '''
  
  or visit <a href="https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium" target="_blank">here</a> for other way around.
                         
@@ -24,7 +27,10 @@ Selenium for webdriver control.
  I'll try to provide comments wherever necessary in code.
  
  Change 
- >time.sleep() 
+ 
+ '''python
+ time.sleep()
+ '''
  
  value according to your internet speed as if the page do not loads in that time the code will throw error of element not found. 
  Will try to find other way to solve this.
