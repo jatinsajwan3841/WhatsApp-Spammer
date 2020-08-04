@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import getpass
 
 Name=str(input("Enter name or phone no. of target."))
 #make sure that in search it appears on first place, it's better to enter phone number for 100% success.
@@ -18,7 +19,7 @@ def whatsappspam():
     options = webdriver.ChromeOptions()
     
     #generally location of default profile, change the username according to your system username
-    options.add_argument("user-data-dir=C:\\Users\\Jatin\\AppData\\Local\\Google\\Chrome\\User Data")
+    options.add_argument("user-data-dir=C:\\Users\\{}\\AppData\\Local\\Google\\Chrome\\User Data".format(getpass.getuser()))
     
     #change location to downloaded location of driver
     driver = webdriver.Chrome( executable_path="C:\\Users\\Jatin\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe", options=options)
