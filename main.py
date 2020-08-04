@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 Name=str(input("Enter name or phone no. of target."))
@@ -26,16 +29,15 @@ def whatsappspam():
     #Opening WhatsappWeb
     driver.get('https://web.whatsapp.com')
 
-    #for loading time wait.
-    time.sleep(15)
-    elem = driver.find_element_by_xpath('//*[@id="side"]/div[1]/div/label/div/div[2]') #finding search bar
+    elem = WebDriverWait(driver,100).until(EC.presence_of_element_located((By.XPATH, '//*[@id="side"]/div[1]/div/label/div/div[2]'))) #finding search bar
     elem.send_keys(Name)
     time.sleep(1)
     elem.send_keys(Keys.RETURN)
-    elem = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
+    elem = WebDriverWait(driver,100).until(EC.presence_of_element_located((By.XPATH, '//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')))
     for i in range(NumberOfMessages):
         elem.send_keys(Message)
         elem.send_keys(Keys.RETURN)
         time.sleep(int(Interval))
+    time.sleep(60)
 
 whatsappspam()
