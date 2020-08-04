@@ -18,7 +18,7 @@ def whatsappspam():
     # for using the default chrome profile
     options = webdriver.ChromeOptions()
     
-    #generally location of default profile, change the username according to your system username
+    #generally location of default profile
     options.add_argument("user-data-dir=C:\\Users\\{}\\AppData\\Local\\Google\\Chrome\\User Data".format(getpass.getuser()))
     
     #change location to downloaded location of driver
