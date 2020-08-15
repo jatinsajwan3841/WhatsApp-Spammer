@@ -1,7 +1,7 @@
 # WhatsApp-Spammer
 Spam someone's WhatsApp using python script
 
-#Head towards release for windows executable or <a href="https://github.com/jatinsajwan3841/WhatsApp-Spammer/releases/download/v0.10-beta/final.exe" target="_blank">Click Here</a> to lessen the hassle, and directly run this spammer.
+#Head towards release for windows executable or <a href="https://github.com/jatinsajwan3841/WhatsApp-Spammer/releases/download/v0.10-beta/WASpam.exe" target="_blank">Click Here</a> to lessen the hassle, and directly run this spammer.
 
 #Required Module:
 Selenium for webdriver control.
