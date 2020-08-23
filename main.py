@@ -22,7 +22,7 @@ def whatsappspam():
     options.add_argument("user-data-dir=C:\\Users\\{}\\AppData\\Local\\Google\\Chrome\\User Data".format(getpass.getuser()))
     
     #change location to downloaded location of driver
-    driver = webdriver.Chrome( executable_path="C:\\Users\\Jatin\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe", options=options)
+    driver = webdriver.Chrome( executable_path="downloaded driver location\\chromedriver.exe", options=options)
     
     #for separate instance remove above code and remove hash from below code.
     #driver = webdriver.Chrome( executable_path="downloaded driver location")
