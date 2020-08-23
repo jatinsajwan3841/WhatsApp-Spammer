@@ -30,7 +30,7 @@ def whatsappspam():
     #Opening WhatsappWeb
     driver.get('https://web.whatsapp.com')
 
-    elem = WebDriverWait(driver,100).until(EC.presence_of_element_located((By.XPATH, '//*[@id="side"]/div[1]/div/label/div/div[2]'))) #finding search bar
+    elem = WebDriverWait(driver,200).until(EC.presence_of_element_located((By.XPATH, '//*[@id="side"]/div[1]/div/label/div/div[2]'))) #finding search bar
     elem.send_keys(Name)
     time.sleep(1)
     elem.send_keys(Keys.RETURN)
